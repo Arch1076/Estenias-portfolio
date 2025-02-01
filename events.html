@@ -4,85 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Components</title>
+    <title>Estenias</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./gallery.css">  
-      
- </head>
+      <link rel="stylesheet" href="./gallery.css"> 
+      <link rel="stylesheet" href="./index.css">
 
- <body>
+      <style>
+
+      </style>
+</head>
+<body>
+
+<div class="header" style="background-color: #88D66C;">
+  <h1 style="font-family: serif; font-size: 5rem; color: white; text-shadow: 8px 8px 8px #000000;">Estenias Science Foundation School</h1>
+  <p style="font-family: serif; font-size: 2rem; color: #F6FB7A; text-shadow: 8px 8px 8px #000000;"><i>AMOR, CURA ET MERITTUM</i></p>
+</div>
+
+<div class="topnav">
+  <a href="./index.html">Home</a>
+  <a href="./Elementary.html">Elementary</a>
+  <a href="./Highschool.html">Highschool</a>
+  <a href="./College.html">College</a>
+  <a href="./Admin.html">Admin</a>
+  <a href="./events.html">Event</a>
+  <a href="./about.html">About</a>
+  <a href="./contact.html" style="float:right">Contact Us</a>
+</div>
   
-  <!Navigation Bar>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img src="./images/logo.jpg" height="40px" alt="Estenias logo">    Estenias</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          </li>
-          
-          <!Dropdown List of Departments>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Departments
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Elementary</a></li>
-              <li><a class="dropdown-item" href="#">Highschool</a></li>
-              <li><a class="dropdown-item" href="#">College of Criminology</a></li>
-              <li><a class="dropdown-item" href="#">College of Education</a></li>
-              <li><a class="dropdown-item" href="#">College of Engineering</a></li>
-              <li><a class="dropdown-item" href="#">College of Midwifery</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Registrar</a></li>
-              <li><a class="dropdown-item" href="#">Administrator</a></li>
-            </ul>
-          </li>
-          
-          <!About Academics and Research>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Academics & Research</a>
-          </li>          
 
-          <!About School Events>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Events</a>
-          </li>
 
-          <!About the Alumni>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Alumni</a>
-          </li>
-
-          <!About the school link>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-          </li>
-
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-  
   <!Body of the page>
-  <h2 style="text-align: center; font-size: 3rem; font-family: sans;">Estenias Album</h2>
 
-<h4 style="text-align: center; font-family:sans-serif ;">Amor, Cura et Meritum</h4>
 
+<div class="row">
+<div class="card">
+  <div class="fakeimg" style="height:auto;">
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="./events/1.jpg">
-      <img src="./events/1.jpg" alt="Parade" width="600" height="400">
+    <a target="_blank" href="./events/1.jpg" >
+      <img id="rcorners1" src="./events/1.jpg" alt="Parade" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -92,7 +55,7 @@
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="./events/2.jpg">
-      <img src="./events/2.jpg" alt="Criminology with banners" width="600" height="400">
+      <img id="rcorners1" src="./events/2.jpg" alt="Criminology with banners" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -101,7 +64,7 @@
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="./events/3.jpg">
-      <img src="./events/3.jpg" alt="Parade" width="600" height="400">
+      <img id="rcorners1" src="./events/3.jpg" alt="Parade" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -110,7 +73,7 @@
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="./events/4.jpg">
-      <img src="./events/4.jpg" alt="Team Tiger" width="600" height="400">
+      <img  id="rcorners1" src="./events/4.jpg" alt="Team Tiger" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -119,7 +82,7 @@
 <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="./events/5.jpg">
-        <img src="./events/5.jpg" alt="Players" width="600" height="400">
+        <img id="rcorners1" src="./events/5.jpg" alt="Players" width="600" height="400">
       </a>
       <div class="desc">Add a description of the image here</div>
     </div>
@@ -128,7 +91,7 @@
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="./events/6.jpg">
-        <img src="./events/6.jpg" alt="People" width="600" height="400">
+        <img id="rcorners1" src="./events/6.jpg" alt="People" width="600" height="400">
       </a>
       <div class="desc">Add a description of the image here</div>
     </div>
@@ -137,7 +100,7 @@
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="./events/7.jpg">
-        <img src="./events/7.jpg" alt="People" width="600" height="400">
+        <img id="rcorners1" src="./events/7.jpg" alt="People" width="600" height="400">
       </a>
       <div class="desc">Add a description of the image here</div>
     </div>
@@ -146,64 +109,22 @@
   <div class="responsive">
     <div class="gallery">
       <a target="_blank" href="./events/8.jpg">
-        <img src="./events/8.jpg" alt="People" width="600" height="400">
+        <img id="rcorners1" src="./events/8.jpg" alt="People" width="600" height="400">
       </a>
       <div class="desc">Add a description of the image here</div>
     </div>
   </div>
 
 <div class="clearfix"></div>
-
+</div>
+</div>
   
 <!Footer>
-<div class="container"  >
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top" >
-    <div class="col mb-3">
-      <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-        <img src="./images/Logo.jpg" height="50px" alt="logo">
-      </a>
-      <p class="text-body-secondary">© 2024</p>
-    </div>
-
-    <div class="col mb-3">
-
-    </div>
-
-    <div class="col mb-3">
-      <h5>Section</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-      </ul>
-    </div>
-
-    <div class="col mb-3">
-      <h5>Section</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-      </ul>
-    </div>
-
-    <div class="col mb-3">
-      <h5>Section</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-      </ul>
-    </div>
-  </footer>
+<div class="footer">
+  <h2 style="color: white;">Estenias Science Foundation School</h2>
+  <p style="color: white;">Maharlika Hwy, Tulay<br>Casiguran, Sorsogon</br>4702</p>
+</div></div>
 </div>
-
   <!Javascript for the Navigation Bar>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

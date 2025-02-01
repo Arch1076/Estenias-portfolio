@@ -10,126 +10,27 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
       <link rel="stylesheet" href="./gallery.css"> 
+      <link rel="stylesheet" href="./index.css">
 
       <style>
-      * {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #F6FB7A;
-  color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #B4E380;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #88D66C;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
+      </style>
 </head>
 <body>
 
-<div class="header" style="background-color: #88D66C;">
-  <h1 style="font-family: serif; font-size: 5rem;">Estenias Science Foundation School</h1>
-  <p style="font-family: serif; font-size: 2rem"><i>AMOR, CURA ET MERITTUM</i></p>
+<div class="header" style="background-color: #387F39;">
+  <h1 style="font-family: serif; font-size: 5rem; color: white; text-shadow: 8px 8px 8px #000000;">Estenias Science Foundation School</h1>
+  <p style="font-family: serif; font-size: 2rem; color: #F6FB7A; text-shadow: 8px 8px 8px #000000;"><i>AMOR, CURA ET MERITTUM</i></p>
 </div>
 
 <div class="topnav">
   <a href="./index.html">Home</a>
-  <a href="#">Elementary</a>
-  <a href="#">Highschool</a>
-  <a href="#">College</a>
-  <a href="#">Admin</a>
+  <a href="./Elementary.html">Elementary</a>
+  <a href="Highschool.html">Highschool</a>
+  <a href="./College.html">College</a>
+  <a href="./Admin.html">Admin</a>
   <a href="./events.html">Event</a>
+  <a href="./about.html">About</a>
   <a href="./contact.html" style="float:right">Contact Us</a>
 </div>
 
@@ -142,7 +43,7 @@ body {
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="./events/January25/Picture1.jpg">
-              <img src="./events/January25/Picture1.jpg" alt="Players" width="600" height="400">
+              <img id="rcorners1" src="./events/January25/Picture1.jpg" alt="Players" width="600" height="400">
             </a>
           </div>
         </div>
@@ -150,7 +51,7 @@ body {
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="./events/January25/Picture2.jpg">
-              <img src="./events/January25/Picture2.jpg" alt="Players" width="600" height="400">
+              <img id="rcorners1" src="./events/January25/Picture2.jpg" alt="Players" width="600" height="400">
             </a>
           </div>
         </div>
@@ -166,7 +67,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture1.jpg">
-            <img src="./events/January12/Picture1.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture1.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -174,7 +75,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture2.jpg">
-            <img src="./events/January12/Picture2.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture2.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -182,7 +83,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture3.jpg">
-            <img src="./events/January12/Picture3.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture3.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -190,7 +91,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture10.jpg">
-            <img src="./events/January12/Picture10.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture10.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -198,7 +99,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture4.jpg">
-            <img src="./events/January12/Picture4.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture4.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -206,7 +107,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture6.jpg">
-            <img src="./events/January12/Picture6.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture6.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -214,7 +115,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture7.jpg">
-            <img src="./events/January12/Picture7.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture7.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -222,7 +123,7 @@ body {
       <div class="responsive">
         <div class="gallery">
           <a target="_blank" href="./events/January12/Picture8.jpg">
-            <img src="./events/January12/Picture8.jpg" alt="Players" width="600" height="400">
+            <img id="rcorners1" src="./events/January12/Picture8.jpg" alt="Players" width="600" height="400">
           </a>
         </div>
       </div>
@@ -234,18 +135,19 @@ body {
 
   <div class="rightcolumn">
     <div class="card">
-      <h2>About</h2>
+      <h2>Parent's Portal</h2>
       <div class="fakeimg">
-        <a  href="./about.html"><img src="./images/Building.jpg" alt="Building" style="height: 175px;"></a>
+        <a  href="./parentsportal.html"><img id="rcorners1 img" src="./images/Logo.jpg" alt="portal" style="height: 175px";></a>
       </div>
-      <p>Find out about the school's history. Click on the image above.</p>
     </div>
 
 
 
     <div class="card">
       <h3>Informations</h3>
-      <div class="fakeimg"><p>Our Core Values</p></div>
+      <div class="fakeimg">
+        <a href="./value.html"><p>Our Core Values</p></a>
+      </div>
       <div class="fakeimg"><p>Admission Requirements</p></div>
       <div class="fakeimg"><p>Uniforms and Dress Code</p></div>
       <div class="fakeimg"><p>Scholarship Programs</p></div>
@@ -263,7 +165,8 @@ body {
 </div>
 
 <div class="footer">
-  <h2>Estenias Science Foundation School</h2>
+  <h2 style="color: white;">Estenias Science Foundation School</h2>
+  <p style="color: white;">Maharlika Hwy, Tulay<br>Casiguran, Sorsogon</br>4702</p>
 </div>
 
 </body>
