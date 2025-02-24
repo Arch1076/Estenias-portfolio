@@ -110,3 +110,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  @font-face {
+    font-family:algeriaFont;
+    src: url(./algeria/ALGERIA.ttf);
+  }
+
+  .algerianFont {font-family: algeriaFont;}
